@@ -1,0 +1,61 @@
+:imagetype png
+
+:powertwo 1
+
+:coverage 69
+
+*.png : clamp_u clamp_v linear generic margin 1 cont
+
+:palette 2048 2048
+
+
+
+:group starfish
+starFish-zero.egg : starfish
+starFish_mouth1.png : starfish 50%
+starFish_eye2.png : starfish 50%
+starFish_body5.png : starfish 
+starFish_hair4.png : starfish
+starFish_mic_flat4.png : starfish 50%
+
+:group amoreEel
+amoreEel-zero.egg : amoreEel
+amore_eel_Eyelash.png : amoreEel 25%
+amore_eel_eye3.png : amoreEel 25%
+
+:group balloonFish
+balloonFish-zero.egg : balloonFish
+balloonFishBodyTest.png : balloonFish
+balloonFishFin.png : balloonFish
+balloonFishNose.png : balloonFish 512 512
+balloonFishTail.png : balloonFish
+
+:group dogFish 
+dogFish-zero.egg : dogFish
+dogFish_ear2.png : dogFish 50% 
+dogFish_fin1.png : dogFish 1024 1024
+dogFish_tail1.png : dogFish 512 512
+frisbeeBot2.png : dogFish 50%
+toungeBK3.png : dogFish 512 1024
+dogFishMouth.png : dogFish 512 512
+dogFish_eye3.png : dogFish 50% 
+dogFish_nose2.png : dogFish 50%
+dogfish_body3.png : dogFish 512 1024
+frisbeeTop2.png : dogFish 50%
+toungeFT3.png : dogFish 512 1024
+
+:group kingCrab
+kingCrab-zero.egg : kingCrab
+crab_body5.png : kingCrab
+kingCrab_claw1.png : kingCrab
+kingCrab_leg1.png : kingCrab
+kingCrab_septor1.png : kingCrab
+king_crab_sleeve1.png : kingCrab
+kingcrab_crown3.png : kingCrab
+kingcrab_crown_ball1.png : kingCrab
+
+
+
+
+:group fishEye
+*eye*.png : fishEye

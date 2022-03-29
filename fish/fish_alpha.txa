@@ -1,0 +1,61 @@
+:imagetype png
+
+:powertwo 1
+
+:coverage 69
+
+*.png : force-rgba clamp_u clamp_v linear generic margin 1 cont
+
+:palette 2048 2048
+
+
+:group frozenFish
+frozenFish-zero.egg : frozenFish
+FrozenFishEyes2.png : frozenFish 1024 512
+frozenFishBand.png : frozenFish 512 512
+frozenFishEarMuff.png : frozenFish 512 512
+frozenFishScarf.png : frozenFish 1024 512
+frozenFishTail.png : frozenFish 512 512
+icecube_face4.png : frozenFish 512 512
+
+:group catFish
+catFish-zero.egg : catFish
+catFishBody.png : catFish
+catFishEar.png : catFish
+catFishEye.png : catFish 512 512
+catFishFin.png : catFish
+catFishTail.png : catFish
+catFishWhisker.png : catFish 512 512
+
+:group pianoTuna
+pianoTuna-zero.egg : pianoTuna
+pianoTuna_body3.png : pianoTuna 512 512
+pianoTuna_eye2.png : pianoTuna
+pianoTuna_fin.png : pianoTuna
+
+:group devilRay
+devilRay-zero.egg : devilRay
+devil_ray3.png : devilRay 512 512
+devil_ray_eye1.png : devilRay
+
+:group nurseShark
+nurseShark-zero.egg : nurseShark
+nurse_shark_body5.png : nurseShark
+nurse_shark_eye2.png : nurseShark 1024 1024
+nurse_shark_hat1.png : nurseShark
+nurse_shark_tail2.png : nurseShark
+
+:group seaHorse
+seaHorse-zero.egg : seaHorse
+sea_horse_body4d.png : seaHorse
+sea_horse_eye2.png : seaHorse
+sea_horse_flipper1.png : seaHorse
+sea_horse_glass3.png : seaHorse
+sea_horse_mane3.png : seaHorse
+sea_horse_mask1.png : seaHorse 1024 1024
+sea_horse_snorkle.png : seaHorse
+sea_horse_tail1.png : seaHorse
+
+
+:group fishEye
+*eye*.png : fishEye
